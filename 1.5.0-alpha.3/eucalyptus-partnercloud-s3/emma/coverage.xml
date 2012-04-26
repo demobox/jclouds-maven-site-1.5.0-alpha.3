@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="UTF-8"?><!-- EMMA v2.0.5312 report, generated Thu Apr 26 02:12:40 EDT 2012 -->
+
+<report>
+  <stats>
+    <packages value="1"/>
+    <classes value="4"/>
+    <methods value="9"/>
+    <srcfiles value="2"/>
+    <srclines value="17"/>
+  </stats>
+  <data>
+    <all name="all classes">
+      <coverage type="class, %" value="50%  (2/4)"/>
+      <coverage type="method, %" value="56%  (5/9)"/>
+      <coverage type="block, %" value="57%  (58/102)"/>
+      <coverage type="line, %" value="35%  (6/17)"/>
+
+      <package name="org.jclouds.epc">
+        <coverage type="class, %" value="50%  (2/4)"/>
+        <coverage type="method, %" value="56%  (5/9)"/>
+        <coverage type="block, %" value="57%  (58/102)"/>
+        <coverage type="line, %" value="35%  (6/17)"/>
+
+        <srcfile name="EucalyptusPartnerCloudWalrusPropertiesBuilder.java">
+          <coverage type="class, %" value="0%   (0/1)"/>
+          <coverage type="method, %" value="0%   (0/2)"/>
+          <coverage type="block, %" value="0%   (0/34)"/>
+          <coverage type="line, %" value="0%   (0/9)"/>
+
+          <class name="EucalyptusPartnerCloudWalrusPropertiesBuilder">
+            <coverage type="class, %" value="0%   (0/1)"/>
+            <coverage type="method, %" value="0%   (0/2)"/>
+            <coverage type="block, %" value="0%   (0/34)"/>
+            <coverage type="line, %" value="0%   (0/9)"/>
+
+            <method name="EucalyptusPartnerCloudWalrusPropertiesBuilder (Properties): void">
+              <coverage type="method, %" value="0%   (0/1)"/>
+              <coverage type="block, %" value="0%   (0/4)"/>
+              <coverage type="line, %" value="0%   (0/2)"/>
+            </method>
+            <method name="defaultProperties (): Properties">
+              <coverage type="method, %" value="0%   (0/1)"/>
+              <coverage type="block, %" value="0%   (0/30)"/>
+              <coverage type="line, %" value="0%   (0/7)"/>
+            </method>
+          </class>
+        </srcfile>
+        <srcfile name="EucalyptusPartnerCloudS3ProviderMetadata.java">
+          <coverage type="class, %" value="67%  (2/3)"/>
+          <coverage type="method, %" value="71%  (5/7)"/>
+          <coverage type="block, %" value="85%  (58/68)"/>
+          <coverage type="line, %" value="75%  (6/8)"/>
+
+          <class name="EucalyptusPartnerCloudS3ProviderMetadata">
+            <coverage type="class, %" value="100% (1/1)"/>
+            <coverage type="method, %" value="75%  (3/4)"/>
+            <coverage type="block, %" value="91%  (52/57)"/>
+            <coverage type="line, %" value="83%  (5/6)"/>
+
+            <method name="toBuilder (): EucalyptusPartnerCloudS3ProviderMetadata$ConcreteBuilder">
+              <coverage type="method, %" value="0%   (0/1)"/>
+              <coverage type="block, %" value="0%   (0/5)"/>
+              <coverage type="line, %" value="0%   (0/1)"/>
+            </method>
+            <method name="EucalyptusPartnerCloudS3ProviderMetadata (): void">
+              <coverage type="method, %" value="100% (1/1)"/>
+              <coverage type="block, %" value="100% (43/43)"/>
+              <coverage type="line, %" value="100% (2/2)"/>
+            </method>
+            <method name="EucalyptusPartnerCloudS3ProviderMetadata (EucalyptusPartnerCloudS3ProviderMetadata$ConcreteBuilder): void">
+              <coverage type="method, %" value="100% (1/1)"/>
+              <coverage type="block, %" value="100% (4/4)"/>
+              <coverage type="line, %" value="100% (2/2)"/>
+            </method>
+            <method name="builder (): EucalyptusPartnerCloudS3ProviderMetadata$ConcreteBuilder">
+              <coverage type="method, %" value="100% (1/1)"/>
+              <coverage type="block, %" value="100% (5/5)"/>
+              <coverage type="line, %" value="100% (1/1)"/>
+            </method>
+          </class>
+          <class name="EucalyptusPartnerCloudS3ProviderMetadata$1">
+            <coverage type="class, %" value="0%   (0/1)"/>
+            <coverage type="method, %" value="100% (0/0)"/>
+            <coverage type="block, %" value="100% (0/0)"/>
+            <coverage type="line, %" value="100% (0/0)"/>
+          </class>
+          <class name="EucalyptusPartnerCloudS3ProviderMetadata$ConcreteBuilder">
+            <coverage type="class, %" value="100% (1/1)"/>
+            <coverage type="method, %" value="67%  (2/3)"/>
+            <coverage type="block, %" value="55%  (6/11)"/>
+            <coverage type="line, %" value="50%  (1/2)"/>
+
+            <method name="build (): EucalyptusPartnerCloudS3ProviderMetadata">
+              <coverage type="method, %" value="0%   (0/1)"/>
+              <coverage type="block, %" value="0%   (0/5)"/>
+              <coverage type="line, %" value="0%   (0/1)"/>
+            </method>
+            <method name="EucalyptusPartnerCloudS3ProviderMetadata$ConcreteBuilder (): void">
+              <coverage type="method, %" value="100% (1/1)"/>
+              <coverage type="block, %" value="100% (3/3)"/>
+              <coverage type="line, %" value="100% (1/1)"/>
+            </method>
+            <method name="EucalyptusPartnerCloudS3ProviderMetadata$ConcreteBuilder (EucalyptusPartnerCloudS3ProviderMetadata$1): void">
+              <coverage type="method, %" value="100% (1/1)"/>
+              <coverage type="block, %" value="100% (3/3)"/>
+              <coverage type="line, %" value="100% (1/1)"/>
+            </method>
+          </class>
+        </srcfile>
+      </package>
+    </all>
+  </data>
+</report>
