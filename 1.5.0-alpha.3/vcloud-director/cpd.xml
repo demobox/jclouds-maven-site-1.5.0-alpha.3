@@ -1,0 +1,136 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<pmd-cpd>
+<duplication lines="34" tokens="144">
+<file line="189" path="/scratch/hudson/workspace/jclouds-maven-site-1.5.0-alpha.3-deploy/labs/vcloud-director/src/main/java/org/jclouds/vcloud/director/v1_5/domain/ProductSectionList.java"/>
+<file line="175" path="/scratch/hudson/workspace/jclouds-maven-site-1.5.0-alpha.3-deploy/labs/vcloud-director/src/main/java/org/jclouds/vcloud/director/v1_5/domain/RasdItemsList.java"/>
+<codefragment>
+<![CDATA[
+   public Iterator<ResourceAllocationSettingData> iterator() {
+      return delegate().iterator();
+   }
+
+   @Override
+   public boolean remove(Object arg0) {
+      return delegate().remove(arg0);
+   }
+
+   @Override
+   public boolean removeAll(Collection<?> arg0) {
+      return delegate().removeAll(arg0);
+   }
+
+   @Override
+   public boolean retainAll(Collection<?> arg0) {
+      return delegate().retainAll(arg0);
+   }
+
+   @Override
+   public int size() {
+      return delegate().size();
+   }
+
+   @Override
+   public Object[] toArray() {
+      return delegate().toArray();
+   }
+
+   @Override
+   public <T> T[] toArray(T[] arg0) {
+      return delegate().toArray(arg0);
+   }
+}
+]]>
+</codefragment>
+</duplication>
+<duplication lines="35" tokens="107">
+<file line="77" path="/scratch/hudson/workspace/jclouds-maven-site-1.5.0-alpha.3-deploy/labs/vcloud-director/src/main/java/org/jclouds/vcloud/director/v1_5/domain/ResourceType.java"/>
+<file line="101" path="/scratch/hudson/workspace/jclouds-maven-site-1.5.0-alpha.3-deploy/labs/vcloud-director/src/main/java/org/jclouds/vcloud/director/v1_5/domain/ovf/OperatingSystemSection.java"/>
+<codefragment>
+<![CDATA[
+      }
+      
+      /**
+       * @see OperatingSystemSection#getHref()
+       */
+      public B href(URI href) {
+         this.href = href;
+         return self();
+      }
+
+      /**
+       * @see OperatingSystemSection#getType()
+       */
+      public B type(String type) {
+         this.type = type;
+         return self();
+      }
+
+      /**
+       * @see OperatingSystemSection#getLinks()
+       */
+      public B links(Set<Link> links) {
+         this.links = Sets.newLinkedHashSet(checkNotNull(links, "links"));
+         return self();
+      }
+
+      /**
+       * @see ResourceType#getLinks()
+       */
+      public B link(Link link) {
+         if (links == null)
+            links = Sets.newLinkedHashSet();
+         this.links.add(checkNotNull(link, "link"));
+         return self();
+      }
+]]>
+</codefragment>
+</duplication>
+<duplication lines="40" tokens="103">
+<file line="93" path="/scratch/hudson/workspace/jclouds-maven-site-1.5.0-alpha.3-deploy/labs/vcloud-director/src/main/java/org/jclouds/vcloud/director/v1_5/domain/MetadataEntry.java"/>
+<file line="74" path="/scratch/hudson/workspace/jclouds-maven-site-1.5.0-alpha.3-deploy/labs/vcloud-director/src/main/java/org/jclouds/vcloud/director/v1_5/domain/MetadataValue.java"/>
+<codefragment>
+<![CDATA[
+         return new MetadataValue(this);
+      }
+
+      /**
+       * @see ResourceType#getHref()
+       */
+      @Override
+      public B href(URI href) {
+         super.href(href);
+         return self();
+      }
+
+      /**
+       * @see ResourceType#getType()
+       */
+      @Override
+      public B type(String type) {
+         super.type(type);
+         return self();
+      }
+
+      /**
+       * @see ResourceType#getLinks()
+       */
+      @Override
+      public B links(Set<Link> links) {
+         super.links(Sets.newLinkedHashSet(checkNotNull(links, "links")));
+         return self();
+      }
+
+      /**
+       * @see ResourceType#getLinks()
+       */
+      @Override
+      public B link(Link link) {
+         super.link(link);
+         return self();
+      }
+
+      public B fromMetadataValue(MetadataValue in) {
+]]>
+</codefragment>
+</duplication>
+</pmd-cpd>
