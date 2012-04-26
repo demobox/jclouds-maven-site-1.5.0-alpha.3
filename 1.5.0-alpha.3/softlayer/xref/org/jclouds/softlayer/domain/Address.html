@@ -38,32 +38,32 @@
 <a class="jxr_linenumber" name="28" href="#28">28</a>  <em class="jxr_javadoccomment"> *      /&gt;</em>
 <a class="jxr_linenumber" name="29" href="#29">29</a>  <em class="jxr_javadoccomment"> */</em>
 <a class="jxr_linenumber" name="30" href="#30">30</a>  <strong class="jxr_keyword">public</strong> <strong class="jxr_keyword">class</strong> <a href="../../../../org/jclouds/softlayer/domain/Address.html">Address</a> <strong class="jxr_keyword">implements</strong> Comparable&lt;Address&gt; {
-<a class="jxr_linenumber" name="31" href="#31">31</a>     <strong class="jxr_keyword">public</strong> <strong class="jxr_keyword">static</strong> <a href="../../../../org/jclouds/softlayer/domain/PowerState.html">Builder</a> builder() {
-<a class="jxr_linenumber" name="32" href="#32">32</a>        <strong class="jxr_keyword">return</strong> <strong class="jxr_keyword">new</strong> <a href="../../../../org/jclouds/softlayer/domain/PowerState.html">Builder</a>();
+<a class="jxr_linenumber" name="31" href="#31">31</a>     <strong class="jxr_keyword">public</strong> <strong class="jxr_keyword">static</strong> <a href="../../../../org/jclouds/softlayer/domain/Address.html">Builder</a> builder() {
+<a class="jxr_linenumber" name="32" href="#32">32</a>        <strong class="jxr_keyword">return</strong> <strong class="jxr_keyword">new</strong> <a href="../../../../org/jclouds/softlayer/domain/Address.html">Builder</a>();
 <a class="jxr_linenumber" name="33" href="#33">33</a>     }
 <a class="jxr_linenumber" name="34" href="#34">34</a>  
-<a class="jxr_linenumber" name="35" href="#35">35</a>     <strong class="jxr_keyword">public</strong> <strong class="jxr_keyword">static</strong> <strong class="jxr_keyword">class</strong> <a href="../../../../org/jclouds/softlayer/domain/PowerState.html">Builder</a> {
+<a class="jxr_linenumber" name="35" href="#35">35</a>     <strong class="jxr_keyword">public</strong> <strong class="jxr_keyword">static</strong> <strong class="jxr_keyword">class</strong> <a href="../../../../org/jclouds/softlayer/domain/Address.html">Builder</a> {
 <a class="jxr_linenumber" name="36" href="#36">36</a>        <strong class="jxr_keyword">private</strong> <strong class="jxr_keyword">int</strong> id = -1;
 <a class="jxr_linenumber" name="37" href="#37">37</a>        <strong class="jxr_keyword">private</strong> String country;
 <a class="jxr_linenumber" name="38" href="#38">38</a>        <strong class="jxr_keyword">private</strong> String state;
 <a class="jxr_linenumber" name="39" href="#39">39</a>        <strong class="jxr_keyword">private</strong> String description;
 <a class="jxr_linenumber" name="40" href="#40">40</a>  
-<a class="jxr_linenumber" name="41" href="#41">41</a>        <strong class="jxr_keyword">public</strong> <a href="../../../../org/jclouds/softlayer/domain/PowerState.html">Builder</a> id(<strong class="jxr_keyword">int</strong> id) {
+<a class="jxr_linenumber" name="41" href="#41">41</a>        <strong class="jxr_keyword">public</strong> <a href="../../../../org/jclouds/softlayer/domain/Address.html">Builder</a> id(<strong class="jxr_keyword">int</strong> id) {
 <a class="jxr_linenumber" name="42" href="#42">42</a>           <strong class="jxr_keyword">this</strong>.id = id;
 <a class="jxr_linenumber" name="43" href="#43">43</a>           <strong class="jxr_keyword">return</strong> <strong class="jxr_keyword">this</strong>;
 <a class="jxr_linenumber" name="44" href="#44">44</a>        }
 <a class="jxr_linenumber" name="45" href="#45">45</a>  
-<a class="jxr_linenumber" name="46" href="#46">46</a>        <strong class="jxr_keyword">public</strong> <a href="../../../../org/jclouds/softlayer/domain/PowerState.html">Builder</a> country(String country) {
+<a class="jxr_linenumber" name="46" href="#46">46</a>        <strong class="jxr_keyword">public</strong> <a href="../../../../org/jclouds/softlayer/domain/Address.html">Builder</a> country(String country) {
 <a class="jxr_linenumber" name="47" href="#47">47</a>           <strong class="jxr_keyword">this</strong>.country = country;
 <a class="jxr_linenumber" name="48" href="#48">48</a>           <strong class="jxr_keyword">return</strong> <strong class="jxr_keyword">this</strong>;
 <a class="jxr_linenumber" name="49" href="#49">49</a>        }
 <a class="jxr_linenumber" name="50" href="#50">50</a>  
-<a class="jxr_linenumber" name="51" href="#51">51</a>        <strong class="jxr_keyword">public</strong> <a href="../../../../org/jclouds/softlayer/domain/PowerState.html">Builder</a> state(String state) {
+<a class="jxr_linenumber" name="51" href="#51">51</a>        <strong class="jxr_keyword">public</strong> <a href="../../../../org/jclouds/softlayer/domain/Address.html">Builder</a> state(String state) {
 <a class="jxr_linenumber" name="52" href="#52">52</a>           <strong class="jxr_keyword">this</strong>.state = state;
 <a class="jxr_linenumber" name="53" href="#53">53</a>           <strong class="jxr_keyword">return</strong> <strong class="jxr_keyword">this</strong>;
 <a class="jxr_linenumber" name="54" href="#54">54</a>        }
 <a class="jxr_linenumber" name="55" href="#55">55</a>  
-<a class="jxr_linenumber" name="56" href="#56">56</a>        <strong class="jxr_keyword">public</strong> <a href="../../../../org/jclouds/softlayer/domain/PowerState.html">Builder</a> description(String description) {
+<a class="jxr_linenumber" name="56" href="#56">56</a>        <strong class="jxr_keyword">public</strong> <a href="../../../../org/jclouds/softlayer/domain/Address.html">Builder</a> description(String description) {
 <a class="jxr_linenumber" name="57" href="#57">57</a>           <strong class="jxr_keyword">this</strong>.description = description;
 <a class="jxr_linenumber" name="58" href="#58">58</a>           <strong class="jxr_keyword">return</strong> <strong class="jxr_keyword">this</strong>;
 <a class="jxr_linenumber" name="59" href="#59">59</a>        }
@@ -72,7 +72,7 @@
 <a class="jxr_linenumber" name="62" href="#62">62</a>           <strong class="jxr_keyword">return</strong> <strong class="jxr_keyword">new</strong> <a href="../../../../org/jclouds/softlayer/domain/Address.html">Address</a>(id, country, state, description);
 <a class="jxr_linenumber" name="63" href="#63">63</a>        }
 <a class="jxr_linenumber" name="64" href="#64">64</a>  
-<a class="jxr_linenumber" name="65" href="#65">65</a>        <strong class="jxr_keyword">public</strong> <strong class="jxr_keyword">static</strong> <a href="../../../../org/jclouds/softlayer/domain/PowerState.html">Builder</a> fromAddress(<a href="../../../../org/jclouds/softlayer/domain/Address.html">Address</a> in) {
+<a class="jxr_linenumber" name="65" href="#65">65</a>        <strong class="jxr_keyword">public</strong> <strong class="jxr_keyword">static</strong> <a href="../../../../org/jclouds/softlayer/domain/Address.html">Builder</a> fromAddress(<a href="../../../../org/jclouds/softlayer/domain/Address.html">Address</a> in) {
 <a class="jxr_linenumber" name="66" href="#66">66</a>           <strong class="jxr_keyword">return</strong> Address.builder().id(in.getId())
 <a class="jxr_linenumber" name="67" href="#67">67</a>                                   .country(in.getCountry())
 <a class="jxr_linenumber" name="68" href="#68">68</a>                                   .state(in.getState())
@@ -130,7 +130,7 @@
 <a class="jxr_linenumber" name="120" href="#120">120</a>       <strong class="jxr_keyword">return</strong> description;
 <a class="jxr_linenumber" name="121" href="#121">121</a>    }
 <a class="jxr_linenumber" name="122" href="#122">122</a> 
-<a class="jxr_linenumber" name="123" href="#123">123</a>    <strong class="jxr_keyword">public</strong> <a href="../../../../org/jclouds/softlayer/domain/PowerState.html">Builder</a> toBuilder() {
+<a class="jxr_linenumber" name="123" href="#123">123</a>    <strong class="jxr_keyword">public</strong> <a href="../../../../org/jclouds/softlayer/domain/Address.html">Builder</a> toBuilder() {
 <a class="jxr_linenumber" name="124" href="#124">124</a>       <strong class="jxr_keyword">return</strong> Builder.fromAddress(<strong class="jxr_keyword">this</strong>);
 <a class="jxr_linenumber" name="125" href="#125">125</a>    }
 <a class="jxr_linenumber" name="126" href="#126">126</a> 
