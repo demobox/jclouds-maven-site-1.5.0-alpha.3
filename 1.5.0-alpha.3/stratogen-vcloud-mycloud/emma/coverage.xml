@@ -1,0 +1,197 @@
+<?xml version="1.0" encoding="UTF-8"?><!-- EMMA v2.0.5312 report, generated Thu Apr 26 02:12:40 EDT 2012 -->
+
+<report>
+  <stats>
+    <packages value="2"/>
+    <classes value="7"/>
+    <methods value="16"/>
+    <srcfiles value="5"/>
+    <srclines value="26"/>
+  </stats>
+  <data>
+    <all name="all classes">
+      <coverage type="class, %" value="29%  (2/7)"/>
+      <coverage type="method, %" value="31%  (5/16)"/>
+      <coverage type="block, %" value="38%  (46/120)"/>
+      <coverage type="line, %" value="23%  (6/26)"/>
+
+      <package name="org.jclouds.stratogen.vcloud.mycloud.config">
+        <coverage type="class, %" value="0%   (0/2)"/>
+        <coverage type="method, %" value="0%   (0/4)"/>
+        <coverage type="block, %" value="0%   (0/17)"/>
+        <coverage type="line, %" value="0%   (0/4)"/>
+
+        <srcfile name="StratoGenVCloudMyCloudComputeServiceContextModule.java">
+          <coverage type="class, %" value="0%   (0/1)"/>
+          <coverage type="method, %" value="0%   (0/3)"/>
+          <coverage type="block, %" value="0%   (0/14)"/>
+          <coverage type="line, %" value="0%   (0/3)"/>
+
+          <class name="StratoGenVCloudMyCloudComputeServiceContextModule">
+            <coverage type="class, %" value="0%   (0/1)"/>
+            <coverage type="method, %" value="0%   (0/3)"/>
+            <coverage type="block, %" value="0%   (0/14)"/>
+            <coverage type="line, %" value="0%   (0/3)"/>
+
+            <method name="StratoGenVCloudMyCloudComputeServiceContextModule (): void">
+              <coverage type="method, %" value="0%   (0/1)"/>
+              <coverage type="block, %" value="0%   (0/3)"/>
+              <coverage type="line, %" value="0%   (0/1)"/>
+            </method>
+            <method name="provideTemplate (Injector, TemplateBuilder): TemplateBuilder">
+              <coverage type="method, %" value="0%   (0/1)"/>
+              <coverage type="block, %" value="0%   (0/4)"/>
+              <coverage type="line, %" value="0%   (0/1)"/>
+            </method>
+            <method name="provideTemplateOptions (Injector, TemplateOptions): TemplateOptions">
+              <coverage type="method, %" value="0%   (0/1)"/>
+              <coverage type="block, %" value="0%   (0/7)"/>
+              <coverage type="line, %" value="0%   (0/1)"/>
+            </method>
+          </class>
+        </srcfile>
+        <srcfile name="StratoGenVCloudMyCloudRestClientModule.java">
+          <coverage type="class, %" value="0%   (0/1)"/>
+          <coverage type="method, %" value="0%   (0/1)"/>
+          <coverage type="block, %" value="0%   (0/3)"/>
+          <coverage type="line, %" value="0%   (0/1)"/>
+
+          <class name="StratoGenVCloudMyCloudRestClientModule">
+            <coverage type="class, %" value="0%   (0/1)"/>
+            <coverage type="method, %" value="0%   (0/1)"/>
+            <coverage type="block, %" value="0%   (0/3)"/>
+            <coverage type="line, %" value="0%   (0/1)"/>
+
+            <method name="StratoGenVCloudMyCloudRestClientModule (): void">
+              <coverage type="method, %" value="0%   (0/1)"/>
+              <coverage type="block, %" value="0%   (0/3)"/>
+              <coverage type="line, %" value="0%   (0/1)"/>
+            </method>
+          </class>
+        </srcfile>
+      </package>
+      <package name="org.jclouds.stratogen.vcloud.mycloud">
+        <coverage type="class, %" value="40%  (2/5)"/>
+        <coverage type="method, %" value="42%  (5/12)"/>
+        <coverage type="block, %" value="45%  (46/103)"/>
+        <coverage type="line, %" value="27%  (6/22)"/>
+
+        <srcfile name="StratoGenVCloudMyCloudContextBuilder.java">
+          <coverage type="class, %" value="0%   (0/1)"/>
+          <coverage type="method, %" value="0%   (0/3)"/>
+          <coverage type="block, %" value="0%   (0/18)"/>
+          <coverage type="line, %" value="0%   (0/6)"/>
+
+          <class name="StratoGenVCloudMyCloudContextBuilder">
+            <coverage type="class, %" value="0%   (0/1)"/>
+            <coverage type="method, %" value="0%   (0/3)"/>
+            <coverage type="block, %" value="0%   (0/18)"/>
+            <coverage type="line, %" value="0%   (0/6)"/>
+
+            <method name="StratoGenVCloudMyCloudContextBuilder (Properties): void">
+              <coverage type="method, %" value="0%   (0/1)"/>
+              <coverage type="block, %" value="0%   (0/4)"/>
+              <coverage type="line, %" value="0%   (0/2)"/>
+            </method>
+            <method name="addClientModule (List): void">
+              <coverage type="method, %" value="0%   (0/1)"/>
+              <coverage type="block, %" value="0%   (0/7)"/>
+              <coverage type="line, %" value="0%   (0/2)"/>
+            </method>
+            <method name="addContextModule (List): void">
+              <coverage type="method, %" value="0%   (0/1)"/>
+              <coverage type="block, %" value="0%   (0/7)"/>
+              <coverage type="line, %" value="0%   (0/2)"/>
+            </method>
+          </class>
+        </srcfile>
+        <srcfile name="StratoGenVCloudMyCloudPropertiesBuilder.java">
+          <coverage type="class, %" value="0%   (0/1)"/>
+          <coverage type="method, %" value="0%   (0/2)"/>
+          <coverage type="block, %" value="0%   (0/29)"/>
+          <coverage type="line, %" value="0%   (0/8)"/>
+
+          <class name="StratoGenVCloudMyCloudPropertiesBuilder">
+            <coverage type="class, %" value="0%   (0/1)"/>
+            <coverage type="method, %" value="0%   (0/2)"/>
+            <coverage type="block, %" value="0%   (0/29)"/>
+            <coverage type="line, %" value="0%   (0/8)"/>
+
+            <method name="StratoGenVCloudMyCloudPropertiesBuilder (Properties): void">
+              <coverage type="method, %" value="0%   (0/1)"/>
+              <coverage type="block, %" value="0%   (0/4)"/>
+              <coverage type="line, %" value="0%   (0/2)"/>
+            </method>
+            <method name="defaultProperties (): Properties">
+              <coverage type="method, %" value="0%   (0/1)"/>
+              <coverage type="block, %" value="0%   (0/25)"/>
+              <coverage type="line, %" value="0%   (0/6)"/>
+            </method>
+          </class>
+        </srcfile>
+        <srcfile name="StratoGenVCloudMyCloudProviderMetadata.java">
+          <coverage type="class, %" value="67%  (2/3)"/>
+          <coverage type="method, %" value="71%  (5/7)"/>
+          <coverage type="block, %" value="82%  (46/56)"/>
+          <coverage type="line, %" value="75%  (6/8)"/>
+
+          <class name="StratoGenVCloudMyCloudProviderMetadata$1">
+            <coverage type="class, %" value="0%   (0/1)"/>
+            <coverage type="method, %" value="100% (0/0)"/>
+            <coverage type="block, %" value="100% (0/0)"/>
+            <coverage type="line, %" value="100% (0/0)"/>
+          </class>
+          <class name="StratoGenVCloudMyCloudProviderMetadata$ConcreteBuilder">
+            <coverage type="class, %" value="100% (1/1)"/>
+            <coverage type="method, %" value="67%  (2/3)"/>
+            <coverage type="block, %" value="55%  (6/11)"/>
+            <coverage type="line, %" value="50%  (1/2)"/>
+
+            <method name="build (): StratoGenVCloudMyCloudProviderMetadata">
+              <coverage type="method, %" value="0%   (0/1)"/>
+              <coverage type="block, %" value="0%   (0/5)"/>
+              <coverage type="line, %" value="0%   (0/1)"/>
+            </method>
+            <method name="StratoGenVCloudMyCloudProviderMetadata$ConcreteBuilder (): void">
+              <coverage type="method, %" value="100% (1/1)"/>
+              <coverage type="block, %" value="100% (3/3)"/>
+              <coverage type="line, %" value="100% (1/1)"/>
+            </method>
+            <method name="StratoGenVCloudMyCloudProviderMetadata$ConcreteBuilder (StratoGenVCloudMyCloudProviderMetadata$1): void">
+              <coverage type="method, %" value="100% (1/1)"/>
+              <coverage type="block, %" value="100% (3/3)"/>
+              <coverage type="line, %" value="100% (1/1)"/>
+            </method>
+          </class>
+          <class name="StratoGenVCloudMyCloudProviderMetadata">
+            <coverage type="class, %" value="100% (1/1)"/>
+            <coverage type="method, %" value="75%  (3/4)"/>
+            <coverage type="block, %" value="89%  (40/45)"/>
+            <coverage type="line, %" value="83%  (5/6)"/>
+
+            <method name="toBuilder (): StratoGenVCloudMyCloudProviderMetadata$ConcreteBuilder">
+              <coverage type="method, %" value="0%   (0/1)"/>
+              <coverage type="block, %" value="0%   (0/5)"/>
+              <coverage type="line, %" value="0%   (0/1)"/>
+            </method>
+            <method name="StratoGenVCloudMyCloudProviderMetadata (): void">
+              <coverage type="method, %" value="100% (1/1)"/>
+              <coverage type="block, %" value="100% (31/31)"/>
+              <coverage type="line, %" value="100% (2/2)"/>
+            </method>
+            <method name="StratoGenVCloudMyCloudProviderMetadata (StratoGenVCloudMyCloudProviderMetadata$ConcreteBuilder): void">
+              <coverage type="method, %" value="100% (1/1)"/>
+              <coverage type="block, %" value="100% (4/4)"/>
+              <coverage type="line, %" value="100% (2/2)"/>
+            </method>
+            <method name="builder (): StratoGenVCloudMyCloudProviderMetadata$ConcreteBuilder">
+              <coverage type="method, %" value="100% (1/1)"/>
+              <coverage type="block, %" value="100% (5/5)"/>
+              <coverage type="line, %" value="100% (1/1)"/>
+            </method>
+          </class>
+        </srcfile>
+      </package>
+    </all>
+  </data>
+</report>
