@@ -1,0 +1,118 @@
+<?xml version="1.0" encoding="UTF-8"?><!-- EMMA v2.0.5312 report, generated Thu Apr 26 02:12:40 EDT 2012 -->
+
+<report>
+  <stats>
+    <packages value="1"/>
+    <classes value="4"/>
+    <methods value="10"/>
+    <srcfiles value="2"/>
+    <srclines value="17"/>
+  </stats>
+  <data>
+    <all name="all classes">
+      <coverage type="class, %" value="75%  (3/4)"/>
+      <coverage type="method, %" value="70%  (7/10)"/>
+      <coverage type="block, %" value="84%  (70/83)"/>
+      <coverage type="line, %" value="76%  (13/17)"/>
+
+      <package name="org.jclouds.ninefold.storage">
+        <coverage type="class, %" value="75%  (3/4)"/>
+        <coverage type="method, %" value="70%  (7/10)"/>
+        <coverage type="block, %" value="84%  (70/83)"/>
+        <coverage type="line, %" value="76%  (13/17)"/>
+
+        <srcfile name="NinefoldStorageProviderMetadata.java">
+          <coverage type="class, %" value="67%  (2/3)"/>
+          <coverage type="method, %" value="71%  (5/7)"/>
+          <coverage type="block, %" value="82%  (46/56)"/>
+          <coverage type="line, %" value="75%  (6/8)"/>
+
+          <class name="NinefoldStorageProviderMetadata">
+            <coverage type="class, %" value="100% (1/1)"/>
+            <coverage type="method, %" value="75%  (3/4)"/>
+            <coverage type="block, %" value="89%  (40/45)"/>
+            <coverage type="line, %" value="83%  (5/6)"/>
+
+            <method name="toBuilder (): NinefoldStorageProviderMetadata$ConcreteBuilder">
+              <coverage type="method, %" value="0%   (0/1)"/>
+              <coverage type="block, %" value="0%   (0/5)"/>
+              <coverage type="line, %" value="0%   (0/1)"/>
+            </method>
+            <method name="NinefoldStorageProviderMetadata (): void">
+              <coverage type="method, %" value="100% (1/1)"/>
+              <coverage type="block, %" value="100% (31/31)"/>
+              <coverage type="line, %" value="100% (2/2)"/>
+            </method>
+            <method name="NinefoldStorageProviderMetadata (NinefoldStorageProviderMetadata$ConcreteBuilder): void">
+              <coverage type="method, %" value="100% (1/1)"/>
+              <coverage type="block, %" value="100% (4/4)"/>
+              <coverage type="line, %" value="100% (2/2)"/>
+            </method>
+            <method name="builder (): NinefoldStorageProviderMetadata$ConcreteBuilder">
+              <coverage type="method, %" value="100% (1/1)"/>
+              <coverage type="block, %" value="100% (5/5)"/>
+              <coverage type="line, %" value="100% (1/1)"/>
+            </method>
+          </class>
+          <class name="NinefoldStorageProviderMetadata$1">
+            <coverage type="class, %" value="0%   (0/1)"/>
+            <coverage type="method, %" value="100% (0/0)"/>
+            <coverage type="block, %" value="100% (0/0)"/>
+            <coverage type="line, %" value="100% (0/0)"/>
+          </class>
+          <class name="NinefoldStorageProviderMetadata$ConcreteBuilder">
+            <coverage type="class, %" value="100% (1/1)"/>
+            <coverage type="method, %" value="67%  (2/3)"/>
+            <coverage type="block, %" value="55%  (6/11)"/>
+            <coverage type="line, %" value="50%  (1/2)"/>
+
+            <method name="build (): NinefoldStorageProviderMetadata">
+              <coverage type="method, %" value="0%   (0/1)"/>
+              <coverage type="block, %" value="0%   (0/5)"/>
+              <coverage type="line, %" value="0%   (0/1)"/>
+            </method>
+            <method name="NinefoldStorageProviderMetadata$ConcreteBuilder (): void">
+              <coverage type="method, %" value="100% (1/1)"/>
+              <coverage type="block, %" value="100% (3/3)"/>
+              <coverage type="line, %" value="100% (1/1)"/>
+            </method>
+            <method name="NinefoldStorageProviderMetadata$ConcreteBuilder (NinefoldStorageProviderMetadata$1): void">
+              <coverage type="method, %" value="100% (1/1)"/>
+              <coverage type="block, %" value="100% (3/3)"/>
+              <coverage type="line, %" value="100% (1/1)"/>
+            </method>
+          </class>
+        </srcfile>
+        <srcfile name="NinefoldStoragePropertiesBuilder.java">
+          <coverage type="class, %" value="100% (1/1)"/>
+          <coverage type="method, %" value="67%  (2/3)"/>
+          <coverage type="block, %" value="89%  (24/27)"/>
+          <coverage type="line, %" value="78%  (7/9)"/>
+
+          <class name="NinefoldStoragePropertiesBuilder">
+            <coverage type="class, %" value="100% (1/1)"/>
+            <coverage type="method, %" value="67%  (2/3)"/>
+            <coverage type="block, %" value="89%  (24/27)"/>
+            <coverage type="line, %" value="78%  (7/9)"/>
+
+            <method name="NinefoldStoragePropertiesBuilder (): void">
+              <coverage type="method, %" value="0%   (0/1)"/>
+              <coverage type="block, %" value="0%   (0/3)"/>
+              <coverage type="line, %" value="0%   (0/2)"/>
+            </method>
+            <method name="NinefoldStoragePropertiesBuilder (Properties): void">
+              <coverage type="method, %" value="100% (1/1)"/>
+              <coverage type="block, %" value="100% (4/4)"/>
+              <coverage type="line, %" value="100% (2/2)"/>
+            </method>
+            <method name="defaultProperties (): Properties">
+              <coverage type="method, %" value="100% (1/1)"/>
+              <coverage type="block, %" value="100% (20/20)"/>
+              <coverage type="line, %" value="100% (5/5)"/>
+            </method>
+          </class>
+        </srcfile>
+      </package>
+    </all>
+  </data>
+</report>
