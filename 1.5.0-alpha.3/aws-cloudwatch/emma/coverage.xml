@@ -1,0 +1,118 @@
+<?xml version="1.0" encoding="UTF-8"?><!-- EMMA v2.0.5312 report, generated Thu Apr 26 02:12:40 EDT 2012 -->
+
+<report>
+  <stats>
+    <packages value="1"/>
+    <classes value="4"/>
+    <methods value="10"/>
+    <srcfiles value="2"/>
+    <srclines value="26"/>
+  </stats>
+  <data>
+    <all name="all classes">
+      <coverage type="class, %" value="50%  (2/4)"/>
+      <coverage type="method, %" value="50%  (5/10)"/>
+      <coverage type="block, %" value="54%  (94/174)"/>
+      <coverage type="line, %" value="23%  (6/26)"/>
+
+      <package name="org.jclouds.aws.cloudwatch">
+        <coverage type="class, %" value="50%  (2/4)"/>
+        <coverage type="method, %" value="50%  (5/10)"/>
+        <coverage type="block, %" value="54%  (94/174)"/>
+        <coverage type="line, %" value="23%  (6/26)"/>
+
+        <srcfile name="AWSCloudWatchPropertiesBuilder.java">
+          <coverage type="class, %" value="0%   (0/1)"/>
+          <coverage type="method, %" value="0%   (0/3)"/>
+          <coverage type="block, %" value="0%   (0/70)"/>
+          <coverage type="line, %" value="0%   (0/18)"/>
+
+          <class name="AWSCloudWatchPropertiesBuilder">
+            <coverage type="class, %" value="0%   (0/1)"/>
+            <coverage type="method, %" value="0%   (0/3)"/>
+            <coverage type="block, %" value="0%   (0/70)"/>
+            <coverage type="line, %" value="0%   (0/18)"/>
+
+            <method name="AWSCloudWatchPropertiesBuilder (): void">
+              <coverage type="method, %" value="0%   (0/1)"/>
+              <coverage type="block, %" value="0%   (0/3)"/>
+              <coverage type="line, %" value="0%   (0/2)"/>
+            </method>
+            <method name="AWSCloudWatchPropertiesBuilder (Properties): void">
+              <coverage type="method, %" value="0%   (0/1)"/>
+              <coverage type="block, %" value="0%   (0/4)"/>
+              <coverage type="line, %" value="0%   (0/2)"/>
+            </method>
+            <method name="defaultProperties (): Properties">
+              <coverage type="method, %" value="0%   (0/1)"/>
+              <coverage type="block, %" value="0%   (0/63)"/>
+              <coverage type="line, %" value="0%   (0/14)"/>
+            </method>
+          </class>
+        </srcfile>
+        <srcfile name="AWSCloudWatchProviderMetadata.java">
+          <coverage type="class, %" value="67%  (2/3)"/>
+          <coverage type="method, %" value="71%  (5/7)"/>
+          <coverage type="block, %" value="90%  (94/104)"/>
+          <coverage type="line, %" value="75%  (6/8)"/>
+
+          <class name="AWSCloudWatchProviderMetadata$ConcreteBuilder">
+            <coverage type="class, %" value="100% (1/1)"/>
+            <coverage type="method, %" value="67%  (2/3)"/>
+            <coverage type="block, %" value="55%  (6/11)"/>
+            <coverage type="line, %" value="50%  (1/2)"/>
+
+            <method name="build (): AWSCloudWatchProviderMetadata">
+              <coverage type="method, %" value="0%   (0/1)"/>
+              <coverage type="block, %" value="0%   (0/5)"/>
+              <coverage type="line, %" value="0%   (0/1)"/>
+            </method>
+            <method name="AWSCloudWatchProviderMetadata$ConcreteBuilder (): void">
+              <coverage type="method, %" value="100% (1/1)"/>
+              <coverage type="block, %" value="100% (3/3)"/>
+              <coverage type="line, %" value="100% (1/1)"/>
+            </method>
+            <method name="AWSCloudWatchProviderMetadata$ConcreteBuilder (AWSCloudWatchProviderMetadata$1): void">
+              <coverage type="method, %" value="100% (1/1)"/>
+              <coverage type="block, %" value="100% (3/3)"/>
+              <coverage type="line, %" value="100% (1/1)"/>
+            </method>
+          </class>
+          <class name="AWSCloudWatchProviderMetadata">
+            <coverage type="class, %" value="100% (1/1)"/>
+            <coverage type="method, %" value="75%  (3/4)"/>
+            <coverage type="block, %" value="95%  (88/93)"/>
+            <coverage type="line, %" value="83%  (5/6)"/>
+
+            <method name="toBuilder (): AWSCloudWatchProviderMetadata$ConcreteBuilder">
+              <coverage type="method, %" value="0%   (0/1)"/>
+              <coverage type="block, %" value="0%   (0/5)"/>
+              <coverage type="line, %" value="0%   (0/1)"/>
+            </method>
+            <method name="AWSCloudWatchProviderMetadata (): void">
+              <coverage type="method, %" value="100% (1/1)"/>
+              <coverage type="block, %" value="100% (79/79)"/>
+              <coverage type="line, %" value="100% (2/2)"/>
+            </method>
+            <method name="AWSCloudWatchProviderMetadata (AWSCloudWatchProviderMetadata$ConcreteBuilder): void">
+              <coverage type="method, %" value="100% (1/1)"/>
+              <coverage type="block, %" value="100% (4/4)"/>
+              <coverage type="line, %" value="100% (2/2)"/>
+            </method>
+            <method name="builder (): AWSCloudWatchProviderMetadata$ConcreteBuilder">
+              <coverage type="method, %" value="100% (1/1)"/>
+              <coverage type="block, %" value="100% (5/5)"/>
+              <coverage type="line, %" value="100% (1/1)"/>
+            </method>
+          </class>
+          <class name="AWSCloudWatchProviderMetadata$1">
+            <coverage type="class, %" value="0%   (0/1)"/>
+            <coverage type="method, %" value="100% (0/0)"/>
+            <coverage type="block, %" value="100% (0/0)"/>
+            <coverage type="line, %" value="100% (0/0)"/>
+          </class>
+        </srcfile>
+      </package>
+    </all>
+  </data>
+</report>
